@@ -9,9 +9,6 @@ from astropy.io import fits
 import pylab as plt
 from matplotlib import rcParams
 
-rcParams['font.family'] = 'Courier New'
-rcParams['font.size'] = '16'
-
 image_file = 'ds9.fits'
 hdu_list = fits.open(image_file)
 data = hdu_list[0].data
